@@ -42,6 +42,19 @@ body{
     list-style: none;
 
 }
+/* navigation */
+.navigation{
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius:1rem;
+}
+.navigation.link{
+    color: white;
+}
+.navigation.link-active{
+    font-weight: bold;
+}
 
     
 
