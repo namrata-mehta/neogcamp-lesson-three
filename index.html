@@ -1,155 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home | namrata</title>
     <link href="styles.css" rel="stylesheet" />
-    <!-- <style>
-        body{
-            color: red;
-        }
-    </style> -->
-
-    <!-- third way of doing css:external link -->
-    
 </head>
+
 <body>
-
-    <!-- <h1 style="color: red;">welcome to namrata mehta's component library</h1> -->
-
-    <h1>welcome to namrata mehta's component library</h1>
-    <P class="para"> i am attending neog camp and i want to make a library 
-        which would make all my projects look good
-    </P>
-    <hr>
-    <h2>@typography</h2>
-    <h1>this is the biggest heading</h1>
-    <h2> this is second biggest heading</h2>
-    <p>normal text</p>
-    <p>this para will have a 
-        <strong>bold</strong>text
-    </p>
-    <small>this is relatively smaller</small>
-
-    <hr>
-    <h2>@container</h2> 
-    <h3>fluid container</h3>
-    <div class="container-fluid"> this is a fluid container no meaning just place holder
-        and goes till the end.
-    </div>
-    <h3>centered container</h3>
-    <div class="container
-    container-center">this is a centered container</div>
-
-   
-    <hr>
-    <h2>@links</h2>
-    <a class="link link-primary"
-    href="/">primary link</a>
+    <!-- NAVIGATION -->
+    <nav class="navigation container">
+        <div class="nav-brand"><a href="/">namrata mehta</a></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
 
 
-    <a class="link link-secondary"
-    href="/">secondary link</a>
-    <hr>
-   
+    <!-- HEADER -->
 
- 
-
-
-   
-    <h2>@list</h2>
-    <div>
-        here is my list
-        <div>item 1</div>
-        <div>item 2</div>
-        <p>this is wrong way to do</p>
-    </div>
-
-
-    <h3>ul(unordered list)</h3>
-    <ul class="list-non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-
-    <h3>ordered list</h3>
-    <ol>
-        <li>item one</li>
-        <li>item two</li>
-    </ol>
-
-<hr>
-   
-
-<nav class="navigation container">
-    <div class="nav-brand"><a href="/">namrata mehta </a></div>
-    <ul class="list-non-bullet nav-pills">
-      <li class="list-item-inline">
-        <a class="link link-active" href="/">home</a>
-      </li>
-      <li class="list-item-inline">
-        <a class="link" href="/projects.html">projects</a>
-      </li>
-      <li class="list-item-inline">
-        <a class="link" href="/blogs.html">blogs</a>
-      </li>
-    </ul>
-  </nav>
-    
-    
-    
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" />
         <h1 class="hero-heading">
-          Namrata Mehta the <span class="heading-inverted"> web developer</span>
+            Namrata Mehta the <span class="heading-inverted"> web developer</span>
         </h1>
-      </header>
-    
-    <hr>
-    <h2>@sections</h2>
+    </header>
+
+    <!-- section -->
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>technologies</h1>
+            <p>
+                I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
+                Web Hosting
+            </p>
+        </div>
+    </section>
+
     <section class="section">
         <div class="container container-center">
-        <h1>white section</h1>
-        <p>With a radius of 3,959 miles, Earth is the fifth largest planet in our solar system, and it's the only one known for sure to have liquid water on its surface. Earth is also unique in terms of monikers. Every other solar system planet was named for a Greek or Roman deity, but for at least a thousand years, some cultures have described our world using the Germanic word “earth,” which means simply “the ground.”</p>
-    </div>
+            <h1>projects</h1>
+            <p>
+                I like to showcase my work and thus, you can see my projects hosted
+                online
+            </p>
+            <a class="link link-primary" href="/projects.html">See Projects</a>
+        </div>
     </section>
 
     <section class="section ow">
         <div class="container container-center">
-        <h1>off white section</h1>
-        <p>With a radius of 3,959 miles, Earth is the fifth largest planet in our solar system, and it's the only one known for sure to have liquid water on its surface. Earth is also unique in terms of monikers. Every other solar system planet was named for a Greek or Roman deity, but for at least a thousand years, some cultures have described our world using the Germanic word “earth,” which means simply “the ground.”</p>
-    </div>
+            <h1>blogs</h1>
+            <p>
+                I am also working on some technical and non techincal blogs. I like to
+                document my journey of learning.
+            </p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+        </div>
     </section>
-    
-    
-    <h2>footer</h2>
 
 
-    <footer class="footer-header">
-        <div>some small heading</div>
+    <!-- footer -->
+
+    
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
         <ul class="social-links list-non-bullet">
             <li class="list-item-inline">
-                <a  class="link" href="/">social one</a></li>
+                <a class="link" href="https://github.com/namrata-mehta"> github </a>
+            </li>
             <li class="list-item-inline">
-                <a class="link" href="/">social two</a></li>
-            <li class="list-item-inline">
-                <a class="link" href="/">social three</a></li>
+                <a class="link"
+                    href="https://in.linkedin.com/in/namrata-mehta-26a51718b?trk=people-guest_people_search-card">
+                    linkedin
+                </a>
+            </li>
         </ul>
     </footer>
-
-
-
-
-
- 
-
-
-
-
-
 </body>
+
 </html>
