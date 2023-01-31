@@ -121,3 +121,13 @@ body {
 .ow{
   background-color: var(--off-white);
 }
+footer{
+  background-color: var(--off-white);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: wheat;
+  border-top-right-radius: 1rem;
+}
+.footer.link{
+  color: white;
+}
