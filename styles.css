@@ -1,60 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
 
 
-:root{
-    --primary-color:red;
+:root {
+  --primary-color: blue;
+  --off-white: #e2e8f0;
+  
 }
-body{
-    font-family: 'Montserrat', sans-serif;
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
+
 /* container */
-.container{
-    
-    padding: 0rem 1rem;
+.container {
+
+  padding: 0rem 1rem;
 }
-.container-center{
-    max-width: 600px;
-    margin: auto;
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
 }
 
 
 /* links */
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-.link-primary{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: blueviolet;
-}
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-
-}
-.links-secondary{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: blueviolet;
-}
-.list-non-bullet{
-    list-style: none;
-
-}
-/* navigation */
-.navigation{
-    background-color: blue;
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius:1rem;
-}
-.navigation.link{
-    color: white;
-}
-.navigation.link-active{
-    font-weight: bold;
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
-    
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: blueviolet;
+}
 
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+
+}
+
+.links-secondary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: blueviolet;
+}
+
+.list-non-bullet {
+  list-style: none;
+
+}
+
+/** navigation **/
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+
+/** header **/
+
+.hero {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.hero .hero-img {
+  max-width: 80%;
+  width: 550px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+/* section */
+
+
+.section{
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+ 
+}
+.ow{
+  background-color: var(--off-white);
+}
